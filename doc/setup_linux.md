@@ -34,7 +34,7 @@ sudo apt install nodejs npm
 ```
 cd WebUI
 
-dotnet user-secrets set ConnStr "Server=localhost; Database=WebseiteDB; User Id=Benutzer; Password=****;"
+dotnet user-secrets set ConnectionStrings:MySQL "Server=localhost; Database=WebseiteDB; User Id=Benutzer; Password=****;"
 
 cd ..
 ```

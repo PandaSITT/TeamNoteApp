@@ -2,7 +2,7 @@
 # Entity Framework
 
 ```
-dotnet ef dbcontext Name=ConnStr MySql.EntityFrameworkCore -o Models
+dotnet ef dbcontext scaffold Name=ConnectionStrings:MySQL MySql.EntityFrameworkCore -o Models
 ```
 
 https://docs.microsoft.com/en-us/ef/core/managing-schemas/scaffolding?tabs=dotnet-core-cli
@@ -12,7 +12,7 @@ https://docs.microsoft.com/en-us/ef/core/managing-schemas/scaffolding?tabs=dotne
 ## Tabelle updaten
 
 ```
-dotnet ef dbcontext Name=ConnStr MySql.EntityFrameworkCore -o Models -f -t Tabelle 
+dotnet ef dbcontext scaffold Name=ConnectionStrings:MySQL MySql.EntityFrameworkCore -o Models -f -t Tabelle 
 ```
 
 Kann anscheinend einigen kaputt machen...
