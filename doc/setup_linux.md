@@ -27,3 +27,14 @@ sudo apt install dotnet-sdk-5.0
 sudo apt update
 sudo apt install nodejs npm
 ```
+
+# Umgebung Configurieren
+
+## user secrets configurieren 
+```
+cd WebUI
+
+dotnet user-secrets set ConnStr "Server=localhost; Database=WebseiteDB; User Id=Benutzer; Password=****;"
+
+cd ..
+```
