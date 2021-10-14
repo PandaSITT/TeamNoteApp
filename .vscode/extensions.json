@@ -6,7 +6,6 @@
 	"recommendations": [
 		"ms-dotnettools.csharp",
 		"awwsky.csharpfixformatfixed",
-		"jchannon.csharpextensions",
 		"Fudge.auto-using",
 		"DotJoshJohnson.xml",
 		"k--kato.docomment",
