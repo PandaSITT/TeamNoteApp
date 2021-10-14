@@ -5,7 +5,6 @@
 	// List of extensions which should be recommended for users of this workspace.
 	"recommendations": [
 		"ms-dotnettools.csharp",
-		"awwsky.csharpfixformatfixed",
 		"Fudge.auto-using",
 		"DotJoshJohnson.xml",
 		"k--kato.docomment",
