@@ -13,8 +13,8 @@ rm packages-microsoft-prod.deb
 ### dotnet Pakete
 
 ```
-sudo apt install dotnet-runtime-5.0
-sudo apt install dotnet-sdk-5.0
+sudo apt install dotnet-runtime-6.0
+sudo apt install dotnet-sdk-6.0
 ```
 
 
