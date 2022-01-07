@@ -4,14 +4,22 @@
 
 	// List of extensions which should be recommended for users of this workspace.
 	"recommendations": [
-		"ms-dotnettools.csharp",
-		"Fudge.auto-using",
-		"DotJoshJohnson.xml",
-		"k--kato.docomment",
+		"formulahendry.vscode-mysql",
+		"aaron-bond.better-comments",
+		"christian-kohler.path-intellisense",
+		"visualstudioexptteam.vscodeintellicode",
 		"esbenp.prettier-vscode",
-		"Angular.ng-template",
-		"christian-kohler.npm-intellisense",
-		"eg2.vscode-npm-script"
+		"redvanworkshop.explorer-exclude-vscode-extension",
+		"ms-dotnettools.csharp",
+		"fudge.auto-using",
+		"jorgeserrano.vscode-csharp-snippets",
+		"jchannon.csharpextensions",
+		"k--kato.docomment",
+		"yzhang.markdown-all-in-one",
+		"ecmel.vscode-html-css",
+		"pranaygp.vscode-css-peek",
+		"coenraads.bracket-pair-colorizer",
+		"formulahendry.auto-complete-tag"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [

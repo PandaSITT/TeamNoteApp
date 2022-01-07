@@ -1,0 +1,28 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.config": true,
+        "**/.vscode": true
+    },
+    "explorerExclude.backup": null,
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "mysqlT",
+            "database": "WebseiteDB",
+            "username": "devAdmin",
+            "password": "73r6eWVMUBfc73Bv"
+        }
+    ]
+}

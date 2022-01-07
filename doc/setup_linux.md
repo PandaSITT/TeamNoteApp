@@ -38,3 +38,23 @@ dotnet user-secrets set ConnectionStrings:MySQL "Server=localhost; Database=Webs
 
 cd ..
 ```
+
+## docker mysql setup
+```
+docker pull mysql/mysql-server:latest
+
+docker run --name=mysql1 -p 3306:3306 -e MYSQL_ROOT_PASSWORD=73r6eWVMUBfc73Bv -d mysql/mysql-server:latest
+```
+
+MySQL:
+```
+CREATE USER 'devAdmin'@'%' IDENTIFIED WITH mysql_native_password BY '73r6eWVMUBfc73Bv';
+
+-- Scripte laufen lassen (oder scripte in die konsole kopieren)
+
+Use WebseiteDB;
+
+GRANT ALL PRIVILEGES ON WebseiteDB.* TO 'devAdmin'@'%';
+
+FLUSH PRIVILEGES;
+```
